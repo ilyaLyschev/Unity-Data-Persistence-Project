@@ -14,7 +14,7 @@ public class PersistentDataManager : MonoBehaviour
 
     private void Awake()
     {
-        this.saveDataPath = Application.persistentDataPath + "saveData.json";
+        this.saveDataPath = Application.persistentDataPath + @"\saveData.json";
 
         if (Instance != null)
         {
